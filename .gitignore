@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+venv/
+dist/
+package-lock.json
+
+# Jest cache and reports
+.jest-cache/
+reports/
+
+*.code-workspace

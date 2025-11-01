@@ -1,0 +1,29 @@
+{
+  "name": "password-rotation-examples",
+  "version": "1.0.0",
+  "description": "deterministic script for password rotation",
+  "homepage": "https://github.com/anchorbrowser/password-rotation-examples#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anchorbrowser/password-rotation-examples.git"
+  },
+  "license": "ISC",
+  "author": "Anchor Browser",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "zillow": "ts-node -r dotenv/config examples/zillow.ts",
+    "pcpartpicker": "ts-node -r dotenv/config examples/pcpartpicker.ts",
+    "fandom": "ts-node -r dotenv/config examples/fandom.ts",
+    "wikipedia": "ts-node -r dotenv/config examples/wikipedia.ts"
+  },
+  "dependencies": {
+    "anchorbrowser": "^0.8.2",
+    "dotenv": "^17.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.2"
+  }
+}
